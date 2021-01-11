@@ -6,8 +6,6 @@ export const IncomeExpenses = () => {
 
     const amounts = transactions.map( transaction => transaction.amount);
 
-    const total = amounts.reduce((acc, item) => (acc += item), 0).toFixed(2);
-
     const income = amounts
     .filter(item => item > 0)
     .reduce((acc, item) => (acc += item), 0)
@@ -21,11 +19,11 @@ export const IncomeExpenses = () => {
         <div className="inc-exp-container">
             <div>
                 <h4>Income</h4>
-                <p className="money plus">+$0.00</p>
+                <p className="money plus">{income}</p>
             </div>
             <div>
                 <h4>Expense</h4>
-                <p className="money minus">-$0.00</p>
+                <p className="money minus">{expense}</p>
             </div>
         </div>
     )
