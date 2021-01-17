@@ -9,10 +9,12 @@ export const TransactionList = () => {
 
     return(
         <div>
-            <h3>History</h3>
-            <ul>
+            <h3 className="color-dark-green">History</h3>
+            <ul className="transaction-list">
             {transactions.map(transaction => (<Transaction key={transaction.id} transaction={transaction}/>))}
             </ul>
+
+            <hr />
         </div>
     )
 }

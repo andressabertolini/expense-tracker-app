@@ -21,19 +21,22 @@ export const AddTransaction = () => {
 
     return(
         <div>
+            <h2 className="text-center mt-50 color-dark-green">
+                Add Transaction
+            </h2>
             <form onSubmit={onSubmit}>
                 <div>
-                    <label htmlFor="text">Text</label>
-                    <input type="text" value={text} onChange={(e) => setText(e.target.value)} placeholder="Enter text..." />
+                    <label htmlFor="text" className="mb-10 color-dark-green">Title</label>
+                    <input type="text" className="input w-100 mb-30" value={text} onChange={(e) => setText(e.target.value)} placeholder="Enter text..." />
                 </div>
                 <div>
-                    <label htmlFor="amount">
+                    <label htmlFor="amount" className="mb-10 color-dark-green">
                         Amount<br/>
                         (negative - expense, positive - income)
                     </label>
-                    <input type="number" placeholder="Enter amount..." value={amount} onChange={(e) => setAmount(e.target.value)} />                  
+                    <input type="number" className="input mb-30" placeholder="Enter amount..." value={amount} onChange={(e) => setAmount(e.target.value)} />                  
                 </div>
-                <button>Add Transaction</button>
+                <button className="btn w-100 mb-50">Add Transaction</button>
             </form>
         </div>
     )

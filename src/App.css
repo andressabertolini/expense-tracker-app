@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    outline: transparent;
+    outline-color: transparent;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e4efe4;
+}
+
+label{
+    display: block;
+}
+
+.container{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.transaction-list{
+    padding-left: 20px;
+}
+
+.transaction-list li{
+    padding: 5px 0;
+}
+
+.delete-btn{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.delete-btn:hover{
+    opacity: 0.5;
+}
+
+/********** Helpers **********/
+
+.text-center{
+    text-align: center;
+}
+
+/********** Margins, paddings **********/
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.w-100{
+    width: 100%;
+}
+
+/********** Objects **********/
+
+.box{
+    background-color: #f7f6f6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.input{
+    background-color: #f7f6f6;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.btn{
+    background-color: #476959;
+    color: white;
+    border: 0;
+    padding: 20px 30px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+/********** Colors **********/
+
+.color-dark-green{
+    color: #476959;
+}
+
+.color-red{
+    color: #e81313;
+}
+
+.color-green{
+    color: #1d7720;
+}
