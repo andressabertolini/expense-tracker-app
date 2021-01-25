@@ -9,8 +9,8 @@ export const Balance = () => {
 
     return(
         <div>
-            <h4 className="color-dark-green">Your Balance</h4>
-            <h2 className={(total < 0 ? "color-red":"color-green") + " box"}>${total}</h2>
+            <h4 className="color-dark-green mb-10">Your Balance</h4>
+            <h2 className={(total < 0 ? "color-red":"color-green") + " box mb-30"}>${total}</h2>
         </div>
     )
 }

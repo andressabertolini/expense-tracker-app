@@ -9,8 +9,8 @@ export const TransactionList = () => {
 
     return(
         <div>
-            <h3 className="color-dark-green">History</h3>
-            <ul className="transaction-list">
+            <h3 className="color-dark-green mb-10">History</h3>
+            <ul className="transaction-list mb-30">
             {transactions.map(transaction => (<Transaction key={transaction.id} transaction={transaction}/>))}
             </ul>
 

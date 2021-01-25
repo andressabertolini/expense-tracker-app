@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 *{
+    margin: 0;
+    padding: 0;
     outline: transparent;
     outline-color: transparent;
 }
@@ -8,6 +10,25 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #e4efe4;
+}
+
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 60px 0;
+}
+
+.wrapper:after{
+    content: "";
+    position: absolute;
+    background-image: url(../src/img/pattern.jpg);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: -1;
 }
 
 label{
@@ -18,6 +39,9 @@ label{
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
 }
 
 .transaction-list{
@@ -32,6 +56,8 @@ label{
     background-color: transparent;
     border: 0;
     cursor: pointer;
+    margin-left: 10px;
+    vertical-align: top;
 }
 
 .delete-btn:hover{
@@ -46,12 +72,24 @@ label{
 
 /********** Margins, paddings **********/
 
+.mt-20{
+    margin-top: 20px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
 .mt-50{
     margin-top: 50px;
 }
 
 .mb-10{
     margin-bottom: 10px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
 }
 
 .mb-30{
@@ -79,6 +117,7 @@ label{
     padding: 15px 20px;
     border-radius: 10px;
     border: 0;
+    box-sizing: border-box;
 }
 
 .btn{
