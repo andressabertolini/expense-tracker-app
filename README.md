@@ -2,20 +2,24 @@
 
 This is a ReactJS project where you can input incomes ans expenses to track your money
 
-This is being developed from a tutorial for study purposes: https://www.youtube.com/watch?v=XuFDcZABiDQ
+This was developed from a tutorial for study purposes: https://www.youtube.com/watch?v=XuFDcZABiDQ
+
+<br />
 
 # Live Demo
+If you're like me and is always in a rush, just see the live demo, with no need to clone the project and set up the enviroment:
+https://andressabertolini.github.io/weather-app/
 
-Available soon
+[![Thumbnail](thumbnail.png?raw=true "Preview")](https://andressabertolini.github.io/weather-app/)
+
 
 # How to execute
 
-just type npm start in your console.
-
-If it doesn't work, try:
-
+Run in terminal:
 - npm install
-- do you have node installed?
+- npm start
+
+<br />
 
 That's all folks,
 
