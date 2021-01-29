@@ -1,6 +1,6 @@
 # About this app
 
-This is a ReactJS project where you can input incomes ans expenses to track your money
+This is a ReactJS project where you can input incomes and expenses to track your money
 
 This was developed from a tutorial for study purposes: https://www.youtube.com/watch?v=XuFDcZABiDQ
 
